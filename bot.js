@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const generator = require('generate-password');
 var fs = require('fs');
 
-client.login("Nzc5OTM2MjgyOTY4MTk1MDcz.X7nyRA.vDkax9hIEIqYzxLVpCj2c0GbgQM"); 
+client.login(process.env.TOKEN); 
 
 var i = 0;
 var i1 = 0;
