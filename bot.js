@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const generator = require('generate-password');
 var fs = require('fs');
 
-client.login(process.env.TOKEN); 
+client.login("Nzc5OTM2MjgyOTY4MTk1MDcz.X7nyRA.vDkax9hIEIqYzxLVpCj2c0GbgQM"); 
 
 var i = 0;
 var i1 = 0;
@@ -41,7 +41,7 @@ client.on('ready', () => {
 					a(); 
 					console.log(c + ' of ' + i);
 					channel = client.channels.cache.get('779963256411652097');
-					channel.send('X' + c + ' of ' + i );
+					channel.send(c + ' of ' + i + " : " + "https://discord.gift/" + id);
 					for (i1 = 0; i1 < arr.length; i1){ 
 						console.log(arr[i1]);
 					}
@@ -50,3 +50,4 @@ client.on('ready', () => {
 		})
 	}
 });
+
